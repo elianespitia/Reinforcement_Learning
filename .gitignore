@@ -1,1 +1,16 @@
-/venv
+# Ignorar entornos virtuales
+**/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos temporales de editores
+*.swp
+*.swo
+*.DS_Store
+
+# Ignorar Jupyter notebooks checkpoints
+**/.ipynb_checkpoints/
+
+# Ignorar logs y otros archivos temporales
+*.log
